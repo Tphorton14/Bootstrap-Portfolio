@@ -41,6 +41,13 @@
     border-bottom: 1px solid white;
 }
 
+#con {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 1px solid white;
+}
+
 img {
     float: left;
     margin-right: 10px;
@@ -77,4 +84,20 @@ a:hover {
     color: #0bff01;
 }
 
+.contact {
+    width: 960px;
+    margin: 0 auto;
+    padding: 5px 40px 20px 40px;
+    margin-top: 10px;
+    height: 500px;
+    background: black; 
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.submit {
+    background: #0bff01;
+    color: black;
+}
 
