@@ -4,7 +4,8 @@
 
 .color {
     color: #ff48c4;
-    float: right;
+    font-size: 20px;
+
 
 }
 
@@ -18,7 +19,7 @@
 }
 
 .mr-auto {
-    margin-left: 28%;
+    margin-left: 25%;
 }
 
 .rows {
@@ -26,28 +27,54 @@
     margin: 0 auto;
     padding: 5px 40px 20px 40px;
     margin-top: 10px;
-    height: 750px;
+    height: 600px;
     background: black; 
     color: white;
+    margin-bottom: 15px;
+
 }
 
 #me {
-    border: 120px white;
-    width: 100%;
-    font-size: 25px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    border-bottom: 1px solid white;
 }
 
 img {
     float: left;
-    margin-top: 10px;
-    border: 10px solid transparent yellow;
+    margin-right: 10px;
+
+   
 }
+
+
 
 .paragraph {
     font-size: 20px;
+    margin-left: 10px;
 }
 
 .container {
     display: inline;
 }
+
+.foot {
+    padding: 0 0 15px 0;
+    color:  #f3ea5f;
+    text-align: center;
+    background: black;
+    border-top: 4px solid #ff48c4;
+    text-align: center;
+    position: fixed;
+    flex-shrink: 0;
+    margin-bottom: 0 px;
+    bottom: 0px;
+    width: 100%;
+}
+
+a:hover {
+    color: #ff3f3f;
+}
+
 
