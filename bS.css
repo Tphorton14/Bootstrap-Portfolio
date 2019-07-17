@@ -73,12 +73,12 @@ img {
     background: black;
     border-top: 4px solid #ff48c4;
     text-align: center;
-    position: fixed;
-    flex-shrink: 0;
     margin-bottom: 0 px;
     bottom: 0px;
     width: 100%;
+
 }
+
 
 a:hover {
     color: #0bff01;
@@ -100,4 +100,26 @@ a:hover {
     background: #0bff01;
     color: black;
 }
+
+.rowCol {
+    width: 960px;
+    margin: 0 auto;
+    padding: 5px 40px 20px 40px;
+    margin-top: 10px;
+    height: 500px;
+    background: black; 
+    color: white;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+
+
 
