@@ -139,16 +139,25 @@ a:hover {
 
 
 
-@media (max-width: 768px) {
-    .rows {
-        font-size: 20px;
-        flex-direction: center;
-
-    header {
-        position: static;
-    }
-
+@media only screen and (max-width: 980px) {
+	.rows {
+		width: 70%;
+	}
 }
+
+@media only screen and (max-width: 768px) {
+	.rowCol {
+		width: 90%;
+	}
+}
+
+media only screen and (max-width: 768px) {
+	.contact {
+		width: 90%;
+	}
+}
+
+
 
 
 
